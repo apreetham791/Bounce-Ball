@@ -5,13 +5,9 @@ import java.util.ArrayList;
 public class Main extends PApplet {
     private ArrayList<Block> blocks;
 
-    int numOfBlocks;
-
-
 
     Ball ball;
     Launcher launch;
-
 
     public void settings(){
         size(600,600);
@@ -20,8 +16,6 @@ public class Main extends PApplet {
 
     public void setup(){
 
-       numOfBlocks = 100;
-
        ball = new Ball();
        launch = new Launcher();
 
@@ -29,14 +23,9 @@ public class Main extends PApplet {
 
         for (int i = 0; i < 6 ; i++) {
             for (int j = 0; j < 6; j++) {
-
                 blocks.add(new Block( (100 * i), (50 * j) ));
             }
         }
-
-
-
-
 
 
 
