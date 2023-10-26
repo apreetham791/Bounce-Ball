@@ -1,6 +1,5 @@
 public class Block {
 
-    //there will be an arraylist of blocks everytime you start a game
 
      int  x, y , width , height;
 

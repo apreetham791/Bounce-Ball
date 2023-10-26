@@ -1,25 +1,25 @@
 public class Square {
       int  x,y ,xS, yS;
 
-    int radius;
+    int size;
 
     public Square(){
         x= 300;
         y= 500;
-        radius= 25;
+        size = 25;
         xS =2;
         yS =2;
     }
 
 
-    //soon make it inherited
+
     public void move( ){
         x+=xS;
         y+=yS;
     }
 
     // soon make it inherited
-    public void inBounds(){// make sure the Square stays in grid
+    public void inBounds(){
         if(x > 583 || x < 2){
           xS = xS * -1;
         }
@@ -34,15 +34,15 @@ public class Square {
 
 
     public void paddleBounce(int xP, int width, int yP, int height ){
-        if(x + radius >= xP && x <= xP + width ){
-            if( y + radius >= yP && y <= yP + height){
+        if(x + size >= xP && x <= xP + width ){
+            if( y + size >= yP && y <= yP + height){
                 yS = yS * -1;
             }
         }
     }
 
     public boolean getTouched(int xP, int width, int yP, int height ){
-        return (x + radius >= xP && x <= xP + width ) && (  y + radius >= yP && y <= yP + height );
+        return (x + size >= xP && x <= xP + width ) && (  y + size >= yP && y <= yP + height );
     }
 
 
