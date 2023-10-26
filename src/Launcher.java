@@ -15,7 +15,6 @@ public class Launcher extends PApplet {
 
     // soon make it inherited
 
-
     public void paddleBounds( ){ // make sure it doesn't go outside the grid
         if (x >= 600-width){
             xS = -xS;

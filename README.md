@@ -1,2 +1,2 @@
-# Bounce-Ball
+# Bounce-Square
 ball bounces.

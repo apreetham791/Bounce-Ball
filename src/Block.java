@@ -18,7 +18,7 @@ public class Block {
 
 
     public void remove( ){
-        //if the ball's ifCollided method returns true, remove that particular block
+        //if the Square's ifCollided method returns true, remove that particular block
 
     }
 

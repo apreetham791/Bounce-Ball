@@ -17,7 +17,7 @@ public class GameItem {
     public void move( ){
     }
 
-    public double dist ( int x , int y , int x2, int y2){
+    public  double Dist(int x , int y , int x2, int y2){
         int xDist = x2 -x;
         int yDist = y2 -y;
         return Math.sqrt(xDist*xDist + yDist*yDist);
