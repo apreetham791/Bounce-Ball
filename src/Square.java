@@ -32,13 +32,6 @@ public class Square {
        return y > 583;
     }
 
-//      if ( (frogX + 100 >= blueCarX && frogX <= blueCarX +90)) {
-//        if (frogY +47 >= blueCarY && frogY <= blueCarY + 45){
-//            frogX = 250;
-//            frogY = 540;
-//            LivesCounter --;
-//        }
-//    }
 
     public void paddleBounce(int xP, int width, int yP, int height ){
         if(x + radius >= xP && x <= xP + width ){

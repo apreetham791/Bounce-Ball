@@ -12,14 +12,8 @@ public class Block {
         this.y = y;
     }
 
-    public void updateX(){
-
-    }
 
 
-    public void remove( ){
-        //if the Square's ifCollided method returns true, remove that particular block
 
-    }
 
 }

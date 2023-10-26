@@ -68,7 +68,6 @@ public class Main extends PApplet {
             GameOverScreen();
         }
 
-
     }
 
     public void GameOverScreen(){
